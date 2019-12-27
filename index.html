@@ -55,7 +55,15 @@
             At the same time, though, the band seeks to add its own material and
             contemporary arrangements of older songs and tunes in order to offer
             a new musical direction while still staying true to tradition.</p>
-        </div>
+		</div>
+			<div>
+			<p class="blog_post"> Fred Finn's / Sailing into Walpole's Marsh
+				<audio src="audio/FredFinns.mp3" preload="auto" />
+			</p>
+			<p class="blog_post"> Wings of a Goney
+				<audio src="audio/WingsGoney.ogg" preload="auto" />
+			</p>
+			</div>
       </div>
     </div>
     <div class="row"> </div>
@@ -65,5 +73,12 @@
     <script src="javascripts/foundation.min.js"></script>
     <!-- Initialize JS Plugins -->
     <script src="javascripts/app.js"></script>
+	<script src="audiojs/audio.js"></script>
+
+<script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
   </body>
 </html>
