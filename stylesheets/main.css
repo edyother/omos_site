@@ -18,7 +18,7 @@ body {background: #fff}
 p {color: #000; font-size: 13px}
 p.welcome_text {font-size: 180%; text-align:center; font-weight: normal; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic}
 
-h1,h2,h3,h4 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
+h1,h2,h3,h4,h5 {font-family:'Open Sans Condensed',sans-serif; font-weight: normal}
 .heading_dots {background: url(../images/heading_dots_grey.png) repeat-x center}
 .heading_dots_grey {background: url(../images/heading_dots_grey.png) repeat-x center}
 .heading_bg {background:#FFF; padding: 0 6px 0 0}
@@ -228,11 +228,13 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f34c31; color: #f
 
 .box_fluid {
   margin-bottom: 1.4%;
-  padding: 0;
+  padding: 1px;
   background: #FFF;
-  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  border-style:solid;
+  border-width:1px;
+  border-color:#ededed;
   font-size: 100%;
-  line-height: 1.4em;
+  line-height: 1em;
   float: left;
 }
 
