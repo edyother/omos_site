@@ -75,5 +75,6 @@
   audiojs.events.ready(function() {
     var as = audiojs.createAll();
   });
-</script> </body>
+</script>
+  </body>
 </html>
