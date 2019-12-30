@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/omosmusic.com"
+  to = "/https://quizzical-nightingale-987055.netlify.com/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
