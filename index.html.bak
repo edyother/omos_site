@@ -14,12 +14,11 @@
     <link rel="stylesheet" href="stylesheets/app.css">
     <script src="javascripts/modernizr.foundation.js"></script>
     <!-- Google fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CPlayfair+Display:400italic"
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CPlayfair+Display:400italic"
       rel="stylesheet" type="text/css">
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
   <body>
     <div class="row"> <br>
@@ -47,15 +46,20 @@
           </div>
           <div id="featured"> <img src="images/2019-12-12-1400_IMG_9003.png" alt="">
           </div>
-          <p class="post_meta">Ómós [OO-mahs] is Indiana’s newest Celtic band, comprised of
-            veteran musicians with long individual resumes. The group’s name
-            means “homage” or “tribute” in the Irish language, and the members
-            have a deep respect for the traditions of Celtic music, including
-            jigs and reels, ballads and humorous songs. At the same time,
-            though, the band seeks to add its own material and
-            contemporary arrangements of older songs and tunes in
-            order to offer a new musical direction while still staying true to
-            tradition.</p>
+          <p class="post_meta">Ómós [OO-mahs] is Indiana’s newest Celtic band,
+            comprised of veteran musicians with long individual resumes. The
+            group’s name means “homage” or “tribute” in the Irish language, and
+            the members have a deep respect for the traditions of Celtic music,
+            including jigs and reels, ballads and humorous songs. At the same
+            time, though, the band seeks to add its own material and
+            contemporary arrangements of older songs and tunes in order to offer
+            a new musical direction while still staying true to tradition.</p>
+        </div>
+        <div>
+          <p class="blog_post"> Fred Finn's / Sailing into Walpole's Marsh <audio
+              src="audio/FredFinns.mp3" preload="auto"> </audio></p>
+          <p class="blog_post"> Wings of a Goney <audio src="audio/WingsGoney.ogg"
+              preload="auto"> </audio></p>
         </div>
       </div>
     </div>
@@ -66,5 +70,10 @@
     <script src="javascripts/foundation.min.js"></script>
     <!-- Initialize JS Plugins -->
     <script src="javascripts/app.js"></script>
-  </body>
+    <script src="audiojs/audio.js"></script>
+    <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script> </body>
 </html>
