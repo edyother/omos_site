@@ -1,4 +1,11 @@
-body {
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>body {
   background: white none repeat scroll 0% 0%;
 }
 
@@ -36,17 +43,23 @@ box-shadow: 0px 1px 3px rgba(34, 25, 25, 0.4);
   border: medium none;
 }
 
-.blog_post {
+.blog_post {<br>
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .post_meta {
   font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20px;
+	padding-right: 20px;
   font-style: italic;
   text-align: justify;
   color: #999999;
 }
 
 p {
+	padding-left: 20px;
+	padding-right: 20px;
   color: black;
   font-size: 13px;
 }
@@ -132,7 +145,7 @@ h1, h2, h3, h4, h5 {
   color: white;
 }
 
-ul.accordion > li.active {
+ul.accordion &gt; li.active {
   border-top: 3px solid #f34c31;
 }
 
@@ -146,7 +159,7 @@ dl.tabs dd.active {
   background: #f8f8f8 none repeat scroll 0% 0%;
 }
 
-.nav-bar > li {
+.nav-bar &gt; li {
   border: 0px none;
   padding: 0px;
   font-family: "Open Sans Condensed", sans-serif;
@@ -154,33 +167,33 @@ dl.tabs dd.active {
 box-shadow: none;
 }
 
-.nav-bar > li > a:first-child {
+.nav-bar &gt; li &gt; a:first-child {
   font-size: 16px;
   text-transform: uppercase;
   padding: 0px 25px;
 }
 
-.nav-bar > li:last-child {
+.nav-bar &gt; li:last-child {
   border: 0px none;
 box-shadow: none;
 }
 
-.nav-bar > li.active:hover {
+.nav-bar &gt; li.active:hover {
   background: #f34c31 none repeat scroll 0% 0%;
   cursor: default;
 }
 
-.nav-bar > li:hover {
+.nav-bar &gt; li:hover {
   background: #f34c31 none repeat scroll 0% 0%;
   color: black;
 transition: all 0.2s ease-in-out 0s;
 }
 
-.nav-bar > li > a {
+.nav-bar &gt; li &gt; a {
   color: #4d4d4d;
 }
 
-.nav-bar > li > a:hover {
+.nav-bar &gt; li &gt; a:hover {
   color: white;
 }
 
@@ -189,7 +202,7 @@ transition: all 0.2s ease-in-out 0s;
   color: white;
 }
 
-.nav-bar > li.has-flyout > a:first-child::after {
+.nav-bar &gt; li.has-flyout &gt; a:first-child::after {
   content: "";
   display: block;
   width: 0px;
@@ -202,7 +215,7 @@ transition: all 0.2s ease-in-out 0s;
   top: 17px;
 }
 
-.nav-bar > li.has-flyout > a:hover:first-child::after {
+.nav-bar &gt; li.has-flyout &gt; a:hover:first-child::after {
   content: "";
   display: block;
   width: 0px;
@@ -241,11 +254,11 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover {
 transition: all 0.2s ease-in-out 0s;
 }
 
-.nav-bar.vertical > li {
+.nav-bar.vertical &gt; li {
   border: 0px none;
 }
 
-.nav-bar.vertical > li:last-child {
+.nav-bar.vertical &gt; li:last-child {
   border: 0px none;
 }
 
@@ -624,3 +637,6 @@ box-shadow: 0px 1px 3px rgba(34, 25, 25, 0.4);
   width: 100%;
 }
 
+</pre>
+  </body>
+</html>
