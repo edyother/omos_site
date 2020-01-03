@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/omosmusic.com"
-  to = "/https://quizzical-nightingale-987055.netlify.com/"
+  to = "/https://omosmusic.netlify.com/"
   status = 301
   force = false
   query = {path = ":path"}
