@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155633765-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155633765-1');
+</script> <title>Home</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="javascripts/modernizr.foundation.js"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CPlayfair+Display:400italic"
+
+      rel="stylesheet" type="text/css">
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="row"> <br>
+    </div>
+    <div class="row page_wrap" style="margin-top:-2px"> <!-- page wrap -->
+      <div class="twelve columns">
+        <!-- page wrap -->
+        <div class="row">
+          <div class="twelve columns header_nav" style="margin-bottom:0; box-shadow: none">
+            <div class="twelve columns">
+              <ul id="menu-header" class="nav-bar horizontal">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="gigs.html">Gigs</a></li>
+              </ul>
+              <script>$('ul#menu-header').nav-bar();</script> </div>
+          </div>
+        </div>
+        <!-- END Header -->
+        <div class="row">
+          <div class="twelve columns">
+            <h1 class="heading_supersize"><span class="heading_center_bg">ÓMÓS</span></h1>
+            <p class="welcome_text">Mostly Irish Traditional Music from
+              Central-ish Indiana</p>
+          </div>
+          <div id="featured"> <img src="images/2019-12-12-1400_IMG_9003.png" alt="">
+          </div>
+          <p class="post_meta">Ómós [OO-mahs] is Indiana’s newest Celtic band,
+            comprised of veteran musicians with long individual resumes. The
+            group’s name means “homage” or “tribute” in the Irish language, and
+            the members have a deep respect for the traditions of Celtic music,
+            including jigs and reels, ballads and humorous songs. At the same
+            time, though, the band seeks to add its own material and
+            contemporary arrangements of older songs and tunes in order to offer
+            a new musical direction while still staying true to tradition.</p>
+        </div>
+        <div>
+          <p class="blog_post" style="width: 405px; margin-left: -18px;">Fred
+            Finn's / Sailing into Walpole's Marsh <audio src="audio/FredFinns.mp3"
+
+              preload="auto"> </audio></p>
+          <p class="blog_post" style="width: 405px; margin-left: -18px;">Wings
+            of a Goney <audio src="audio/WingsGoney.ogg" preload="auto"> </audio>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row"> </div>
+    <script>$('ul#menu3').nav-bar();</script>
+    <!-- end page wrap) -->
+    <!-- Included JS Files (Compressed) -->
+    <script src="javascripts/foundation.min.js"></script>
+    <!-- Initialize JS Plugins -->
+    <script src="javascripts/app.js"></script>
+    <script src="audiojs/audio.js"></script>
+    <script>
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
+</script>
+    <footer class=footer>
+      <div>
+      <a title="twitter" href=https://twitter.com/omosmusic"> <img src="./icons/twitter.svg" alt="twitter" style="width:1em;height:1em"</a>
+      </div>
+    </div>
+  </body>
+</html>
