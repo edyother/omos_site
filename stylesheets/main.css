@@ -315,6 +315,14 @@ transition: all 0.2s ease-in-out 0s;
   margin-right: 20px;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .pricing_box {
   border: 1px solid #cccccc;
   float: left;
