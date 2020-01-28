@@ -654,6 +654,11 @@ box-shadow: 0px 1px 3px rgba(34, 25, 25, 0.4);
   width: 50%;
 }
 
+.footer_col_fluid {
+	width: 33%;
+	float: left;
+}
+
 .col_fluid img {
   width: 100%;
 }
