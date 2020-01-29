@@ -656,7 +656,7 @@ box-shadow: 0px 1px 3px rgba(34, 25, 25, 0.4);
 
 .footer_col_fluid {
 	width: 50%;
-	float: center;
+	float: left;
 }
 
 .col_fluid img {
